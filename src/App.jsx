@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './Pages/Home';
-import ListaCarros from './Pages/ListaCarros';
+import ListaEcoSistema from './Componentes/EcoSistema';
 import Sobre from './Pages/Sobre';
 import { Button, Container, LightTheme, DarkTheme } from './Estilos/Estilo';
 import { ThemeProvider } from 'styled-components';
@@ -27,7 +27,7 @@ function App (){
             <Routes>
 
                 <Route path='/' element={<Home />} />
-                <Route path='/ListaCarros' element={<ListaCarros />} />
+                <Route path='/ListaEcoSistema' element={<ListaCarros />} />
                 <Route path='/Sobre' element={<Sobre />} />
                 <Route path='/cep' element={<Cep />} />
 

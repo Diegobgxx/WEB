@@ -2,10 +2,10 @@ function Componente03 (props){
     return(
         <>
             <h3>COMPONENTE 03</h3>
-            <p>INFORMAÇÃO ENVIADA PELO COMPONENTE PAI: {props.linguagemPai}
+            <p>INFORMAÇÃO ENVIADA PELO COMPONENTE EcoSistema: {props.linguagemEcoSistema}
             </p>
 
-            <button onClick={props.clicouPai}>Clique Aqui</button>
+            <button onClick={props.clicouEcoSistema}>Clique Aqui</button>
         </>
     )
 }

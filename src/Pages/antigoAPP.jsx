@@ -1,28 +1,28 @@
 import Componente01 from "./Componentes/Componente01";
 import Componente02 from "./Componentes/Componente02";
 import Componente03 from "./Componentes/Componente03";
-import Carro from "./Componentes/Carro";
+import EcoSistema from "../Componentes/EcoSistema";
 
 function App (){
   const linguagem="JAVASCRIPTs";
 
-  const carros = 'CARRO AZUL';
-  const carrosArray = ['FUSCA','CELTA',"UNO"];
+  const EcoSistema = 'EcoSistema TIPOS';
+  const EcoSistemaArray = ['CERRADO','PANTANAL',"MANGUEZAL"];
 
   function clicouBotao(){
     alert("alerta da tela app")
   }
   return (
     <>
-      <h1>Hello, World</h1>
+      <h1>Qual o seu tipo de EcoSistema </h1>
       <hr/>
-      <Componente01 />
+      <Componente01   />
       <hr/>
       <Componente02 />
       <hr/>
-      <Componente03 linguagemPai={linguagem} clicouPai={clicouBotao} />
+      <Componente03 linguagemEcoSistemas={linguagem} clicouEcoSistema={clicouBotao} />
       <hr/>
-      <Carro carroValorPai={carrosArray} />
+      <EcoSistema EcoSistemaValortipo={EcoSistemaArray} />
       <hr/>
     </>
   )

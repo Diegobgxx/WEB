@@ -1,4 +1,4 @@
-import styled from "styled-components";
+nimport styled from "styled-components";
 
 
 export const LightTheme = {
@@ -8,9 +8,9 @@ export const LightTheme = {
 }
 
 export const DarkTheme = {
-    corFundo: '#2a0a0a',
+    corFundo: white,
     corTexto: 'white',
-    corTitulo: '#fffdd0'
+    corTitulo: blue
 }
 
 // Criando uma div
@@ -30,7 +30,7 @@ export const Button = styled.button`
 
 // Criando um título
 export const TitlePage = styled.h1`
-    color: red;
+    color: green;
     font-size: 20px;
 `
 
@@ -44,5 +44,5 @@ export const InformacoesCep = styled.div`
 // Criando uma div para formulários
 export const DivForm = styled.div`
     display: inline;
-    background-color: #FFF;
+    background-color:green;
 `

@@ -1,15 +1,15 @@
 import Menu from "../Componentes/Menu";
 
 
-function ListaCarros (){
+function EcoSistema (){
     return(
         <>
 
             <Menu />
             <hr/>
 
-            <h1>LISTA DE CARROS</h1>
+            <h1>LISTA DE EcoSistema</h1>
         </>
     )
 }
-export default ListaCarros;
+export default ListaEcoSistema;

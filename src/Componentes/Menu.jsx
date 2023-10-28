@@ -21,7 +21,7 @@ function Menu (){
             <nav style={menu}>
                 <ul style={link}>
                     <li><a href="/" style={link}>HOME</a></li>
-                    <li><a href="/ListaCarros" style={link}>LISTA CARROS</a></li>
+                    <li><a href="/ListasEcoSistema" style={link}>LISTA EcoSistema</a></li>
                     <li><a href="/sobre" style={link}>SOBRE</a></li>
                 </ul>
             </nav>
